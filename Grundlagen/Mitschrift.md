@@ -26,7 +26,7 @@ HTTP Methoden sind die Methoden, die es ermöglichen, dass der Client mit dem Se
 
 ## Midelware
 
-Middleware ist eine Software, die zwischen zwei oder mehreren Programmen oder Anwendungen vermittelt. In ASP.NET Core Middleware ist eine Software, die zwischen dem Client und dem Server vermittelt. Sie kann die Anforderung des Clients bearbeiten und die Antwort des Servers bearbeiten. Sie ist also essenziell für die Web API und die Kommunikation zwischen Client und Server.
+Middleware ist eine Software, die zwischen zwei oder mehreren Programmen oder Anwendungen vermittelt. In ASP.NET Core Middleware ist eine Software, die zwischen dem Client und dem Server vermittelt. Sie kann die Anforderung des Clients und die Antwort des Servers bearbeiten. Sie ist also essenziell für die Web API und die Kommunikation zwischen Client und Server.
 
 ## Swager
 
@@ -167,7 +167,7 @@ In der Realität wird eine Datenbanktabelle erstellt, in der die API Keys gespei
 
 Die Client-Seite ist die Seite, die die Daten von der API bekommt und anzeigt. Die Client-Seite kann in verschiedenen Programmiersprachen geschrieben werden, z.B. in HTML, JavaScript aber auch in C#.
 
-Wir benötigen um Daten ber HTTP abzufragen eine HTTPClient Klasse. Diese Klasse ermöglicht es uns, dass wir die Daten von der API abfragen können.
+Wir benötigen um Daten per HTTP abzufragen eine HTTPClient Klasse. Diese Klasse ermöglicht es uns, dass wir die Daten von der API abfragen können.
 
 In diesem Beispiel wird die Client-Seite in C# geschrieben. In der Client-Seite wird die API abgefragt und die Daten angezeigt.
 
