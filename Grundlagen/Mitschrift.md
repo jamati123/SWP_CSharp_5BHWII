@@ -20,9 +20,9 @@ HTTP Methoden sind die Methoden, die es ermöglichen, dass der Client mit dem Se
 
 - GET -> wir bekommen die Daten
 - POST -> wir schicken die Daten
-- PUT -> wir ändern die Daten
+- PUT -> wir ändern die Daten (überschreibt alle Daten der Request)
 - DELETE -> wir löschen die Daten
-- PATCH -> wir ändern die Daten
+- PATCH -> wir ändern die Daten (überschreibt nur die geänderten Daten der Request)
 
 ## Midelware
 
